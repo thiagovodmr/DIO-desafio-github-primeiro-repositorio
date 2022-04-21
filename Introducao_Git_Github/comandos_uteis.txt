@@ -1,0 +1,24 @@
+Terminal:
+
+- Listar pastas e arquivos de um diretório:
+	Comandos:
+		dir | Windows
+		ls  | linux
+
+- Navegar Entre as pastas:
+	Comandos:
+		cd | Windows e Linux
+
+- Limpar terminal:
+	Comandos: 
+		cls | Windows
+		clear ou atalho ctrl+L | linux
+
+- Criar pasta:
+	Comandos:
+		mkdir | Windows e Linux
+
+- Deletar Pasta:
+	Comandos:
+		rmdir NomeDapasta /S /Q | Windows
+		rm -rf | Linux

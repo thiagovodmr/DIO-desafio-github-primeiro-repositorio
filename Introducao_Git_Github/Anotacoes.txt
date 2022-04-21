@@ -1,0 +1,34 @@
+				Git / GITHUB
+
+Benefícios:
+- Controle de versão
+- Armazenamento em nuvem
+- trabalho em equipe
+- melhora contínua do código
+- oportunidade de reconhecimento
+
+Objetos internos do Git:
+
+- Blobs:
+	Armazena informações como o a criptgrafia sha1 e o tamanho do documento.
+- Trees:
+	Aponta para Blobs e/ou outras trees. Além de armazenar os nomes dos arquivos também.  
+- Commits:
+	Junta todas as informações, apontando para a tree. Além de informações sobre o autor, data e hora,
+	no qual o objeto foi criado.
+
+Todos esses objetos são criptografados, assim, quando temos uma alteração no conteúdo de algum documento, a alteração é identificada pela comparação entre os valores
+gerados pela criptografia.
+
+Ambiente Git/Github:
+                           ---------------                   ---------------
+Working    ->    Staging   |  git commit |    Local          | GitPush ==> |    Servidor Remote
+Directory  <-     Área     |     ==>     |   Repository      | <== GitPull |     Repository
+                           ---------------                   ---------------
+
+Comandos importantes:
+	git init
+	git add
+	git commit
+	git push
+	git pull
